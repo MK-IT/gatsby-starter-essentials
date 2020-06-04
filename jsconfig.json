@@ -1,0 +1,13 @@
+{
+  "exclude": ["node_modules", "public", ".cache"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~src/*": ["src/*"],
+      "~pages/*": ["src/pages/*"],
+      "~layout/*": ["src/layout/*"],
+      "~containers/*": ["src/containers/*"],
+      "~components/*": ["src/components/*"]
+    }
+  }
+}

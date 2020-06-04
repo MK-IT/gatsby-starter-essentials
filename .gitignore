@@ -1,0 +1,20 @@
+# Dependency directories
+node_modules
+*.log
+
+# Gatsby-specific
+.cache
+
+# Env
+.env
+
+# Editors
+.idea
+.vscode
+
+# Build
+public
+
+# Misc
+.DS_Store
+TODO.md
