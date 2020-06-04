@@ -1,10 +1,6 @@
-// Libs
 import React from 'react';
 import { Link } from 'gatsby';
-// Components
 import Page from '~layout/Page';
-
-// test change 3
 
 const IndexPage = () => (
   <Page>

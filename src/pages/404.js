@@ -1,7 +1,5 @@
-// Libs
 import React from 'react';
 import { Link } from 'gatsby';
-// Components
 import Page from '~layout/Page';
 
 const PageNotFound = () => (

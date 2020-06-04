@@ -1,127 +1,92 @@
-# :blue_book: gatsby-starter
+<p align="center">
+  <a href="https://www.gatsbyjs.org">
+    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Gatsby Starter Essentials
+</h1>
 
-> Web app project starter with Gatsby
+[Gatsby default starter](https://github.com/gatsbyjs/gatsby-starter-default) extended with tools to help you boost your development experience.
 
-**Feel free to [submit improvements, bug reports and PRs](https://github.com/MK-IT/gatsby-starter-essentials/issues).**
+_Feel free to [submit suggestions and bug reports](https://github.com/MK-IT/gatsby-starter-essentials/issues)._
 
-**Any planned changes or improvements will be listed in [ROADMAP.md](./ROADMAP.md).**
+## 🚀 Getting Started
 
-## Features
+1.  **Create a Gatsby site.**
 
-### Project
+    Use the Gatsby CLI to create a new site, specifying the `gatsby-essentials-starter`.
 
-- [x] :rocket: **Latest JS support**
-- [x] :gem: **ReactJS & PropTypes**
-- [x] :zap: **ESLint, Prettier, EditorConfig**
-- [x] :wrench: **`.env` configuration**
-- [x] :open_file_folder: **Clean folder structure**
-- [x] :construction_worker: **`npm run` or `yarn` all the things**
-- [x] :vertical_traffic_light: **Pre-commit hooks**
-- [x] :100: **[Google Lighthouse 100/100 score](https://developers.google.com/web/tools/lighthouse/)**
-- [x] :rocket: **Production ready**
+    ```shell
+    # create a new Gatsby site using the `gatsby-essentials-starter` starter
+    gatsby new hello-world https://github.com/MK-IT/gatsby-starter-essentials
+    ```
 
-### Plugins
+2.  **Configure.**
 
-- [x] :curly_loop: **[Prefetch fonts](https://www.gatsbyjs.org/packages/gatsby-plugin-prefetch-google-fonts/)**
-- [x] :recycle: **[NProgress](https://www.gatsbyjs.org/packages/gatsby-plugin-nprogress)**
-- [x] :chart_with_upwards_trend: **[Google Analytics](https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/)**
-- [x] :chart_with_upwards_trend: **[Facebook Pixel](https://www.gatsbyjs.org/packages/gatsby-plugin-facebook-pixel)**
-- [x] :mailbox: **[MailChimp](https://www.gatsbyjs.org/packages/gatsby-plugin-mailchimp)**
-- [x] :scroll: **[Manifest](https://www.gatsbyjs.org/packages/gatsby-plugin-manifest)**
-- [x] :link: **[Helmet](https://www.gatsbyjs.org/packages/gatsby-plugin-react-helmet)**
-- [x] :robot: **[Robots.txt](https://www.gatsbyjs.org/packages/gatsby-plugin-robots-txt)**
-- [x] :globe_with_meridians: **[Sitemap](https://www.gatsbyjs.org/packages/gatsby-plugin-sitemap)**
-- [x] :airplane: **[Offline](https://www.gatsbyjs.org/packages/gatsby-plugin-offline)**
-- [x] :point_right: **[Webpack Root Import](https://www.gatsbyjs.org/packages/gatsby-plugin-root-import)**
-- [x] :elephant: **[Webpack Size](https://www.gatsbyjs.org/packages/gatsby-plugin-webpack-size/?=webpack-size)**
+    Navigate into your new site’s directory and copy the example `dotenv` secrets.
 
-### Components
+    ```shell
+    cd hello-world && cp .env.example .env
+    ```
+    
+    _Note: You can change any of the secrets defined in `.env`. However, all of the pre-defined variables are required by the installed Gatsby plugins._
 
-- [x] :cyclone: **High-level `Page`, a.k.a. [layout](https://www.gatsbyjs.org/docs/layout-components/) component**
-- [x] :mag_right: **`SEO` component with `json-ld` data**
-- [x] :triangular_ruler: **`Container` component**
-- [x] :star: **Text and Button [Gatsby Link](https://www.gatsbyjs.org/docs/gatsby-link/) component**
+3.  **Start developing.**
 
-## Getting Started
+    Start it up.
 
-### Setup
+    ```shell
+    gatsby develop
+    ```
 
-1. Clone the repository
+4.  **Open the source code and start editing!**
 
-```bash
-git clone https://github.com/MK-IT/gatsby-starter-essentials <your-project-name>
-```
+    Your site is now running at `http://localhost:8000`!
 
-2. Initialize Git
+    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-```bash
-cd <your-project-name> && rm -rf .git && git init
-```
+    Open the `hello-world` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-3. Install the dependencies
+## ⭐ Features
 
-```bash
-yarn
-```
+| Project                              | Plugins                                                                                           |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------- |
+| 💪 **Latest JS support**              | ♻️ **[NProgress](https://www.gatsbyjs.org/packages/gatsby-plugin-nprogress)**                      |
+| 💎 **ReactJS & PropTypes**            | 📈 **[Google Analytics](https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/)**       |
+| ⚡️ **ESLint, Prettier, EditorConfig** | 📈 **[Facebook Pixel](https://www.gatsbyjs.org/packages/gatsby-plugin-facebook-pixel)**            |
+| 🛠 **`.env` configuration**           | 📬 **[MailChimp](https://www.gatsbyjs.org/packages/gatsby-plugin-mailchimp)**                      |
+| 📂 **Clean folder structure**         | 📜 **[Manifest](https://www.gatsbyjs.org/packages/gatsby-plugin-manifest)**                        |
+| 🚦 **Pre-commit hooks**               | 🤖 **[Robots.txt](https://www.gatsbyjs.org/packages/gatsby-plugin-robots-txt)**                    |
+| 🤝 **Commit message linting**         | 🌐 **[Sitemap](https://www.gatsbyjs.org/packages/gatsby-plugin-sitemap)**                          |
+| :🧗🏻‍♂️: **Built-in `semver` automation** | ✈️ **[Offline](https://www.gatsbyjs.org/packages/gatsby-plugin-offline)**                          |
+| 🚀 **Production ready**               | 👉 **[Webpack Root Import](https://www.gatsbyjs.org/packages/gatsby-plugin-root-import)**          |
+|                                      | 🏋️‍♂️ **[Webpack Size](https://www.gatsbyjs.org/packages/gatsby-plugin-webpack-size/?=webpack-size)** |
 
-4. Set up environment secrets
+### 🛠 `.env` configuration
 
-```bash
-# .env remains local only so you can adapt all values to your liking
-cp .env.example .env
-```
+You can provide environment variables to your site to customize its behavior in different environments. See Gatsby's guide on [environment variables](https://www.gatsbyjs.org/docs/environment-variables/).
 
-5. Test your setup with production build and serve
+_Gatsby's Node API can access both "OS Env Vars" and "Project Env Vars" all the time. Your client-side JS can access any "OS Env Vars" and any "Project Env Vars" prefixed with `GATSBY_`._
 
-```bash
-yarn build && yarn serve
-```
+### 🤝 Commit message linting
 
-6. Develop
+Keep your commit messages human- and robot-readable using a shared convention, i.e. [Commitlint](https://commitlint.js.org/#/).
 
-```bash
-yarn develop
-```
+[Husky's](https://github.com/typicode/husky) Git hooks make sure that your commit messages follow the convention. Moreover your code will be formatted and linted before every commit.
 
-### Optional steps
+_You can use [Commitlint's CLI](https://commitlint.js.org/#/guides-use-prompt?id=guide-use-prompt) for fast authoring of your commit messages._
 
-- Configure, add, or remove plugins
+### :🧗🏻‍♂️: Built-in `semver` automation
+
+The package [standard-version](https://github.com/conventional-changelog/standard-version) helps you generate `CHANGELOG.md`, tag, and bump the version by following the [semver](https://semver.org) convention.
+
+### 👉 Webpack Root Import (Path Aliases)
+
+The project uses [Webpack's `resolve.alias`](https://webpack.js.org/configuration/resolve/#resolvealias) feature to ease module imports.
 
 ```bash
-nano gatsby-config.js
-# Or any other editor like for instance Visual Studio Code
-code gatsby-config.js
-```
-
-- Change JSON-LD values in `src/layout/SEO/SEO.js`
-
-```bash
-nano src/layout/SEO/SEO.js
-# Or any other editor like for instance Visual Studio Code
-code src/layout/SEO/SEO.js
-```
-
-- Replace default images
-
-```bash
-# Image used for favicon and manifest icons
-cp <your-image-path> static/images/site_logo.png
-# SEO and social media image
-cp <your-image-path> static/images/site_social.png
-```
-
-- Configure `dotenv`
-
-All environment variables get loaded through a utility script `env.js`. The script is used only in `gatsby-config.js` to read any variables defined in `.env` file and pre-load them into your app.
-
-## Folder Structure
-
-### Path Aliases
-
-The project uses [Webpack's `resolve.alias`](https://webpack.js.org/configuration/resolve/#resolvealias) to support import aliases.
-
-```bash
-# Path aliases can be found in `gatsby-config.js` and `jsconfig.json`
+# path aliases can be found in `gatsby-config.js`, `jsconfig.json`, and `.eslintrc.js`
 ~src --> src/
 ~pages --> src/pages/
 ~layout --> src/layout/
@@ -130,114 +95,75 @@ The project uses [Webpack's `resolve.alias`](https://webpack.js.org/configuratio
 ```
 
 ```js
-// Instead of...
+// instead of...
 import MyComponent from '../../../components/MyComponent';
-// You can do...
+// you can do...
 import MyComponent from '~components/MyComponent';
 ```
 
-### TODO: Tree View
+## 🧐 What's inside?
+
+### 👷‍♂️ Available Scripts
 
 ```bash
-.
-├── .vscode                               # VSCode workspace config
-│   ├── extensions.json                     # Recommended extensions
-│   └── settings.json                       # Workspace settings
-├── src                                   # Source code
-│   ├── components                          # Components
-│   │   ├── Container                         # Section container
-│   │   └── Link                              # Reusable Gatsby Link wrapped as Text and Button
-│   ├── containers                          # Containers
-│   ├── layout                              # High-level components
-│   │   ├── Page                              # Page wrapper (Layout)
-│   │   └── SEO                               # SEO
-│   ├── pages                               # Pages
-│   │   ├── 404.js                            # Customizable 404 page
-│   │   └── index.js                          # Home page
-│   ├── App.js                              # High-level app wrapper
-│   ├── styles.css                          # High-level stylesheet imported in App.js
-│   └── theme.js                            # MUI theme configuration
-├── static                                # Statically served files
-├── .editorconfig                         # EditorConfig
-├── .env.example                          # dotenv secrets
-├── .eslintrc.js                          # ESLint config
-├── .gitignore                            # Ignored files by Git
-├── .prettierrc.js                        # Prettier config
-├── .release-it.js                        # release-it config
-├── env.js                                # Utility for loading dotenv secrets
-├── gatsby-browser.js                     # Gatsby CSR config
-├── gatsby-config.js                      # Gatsby global config
-├── gatsby-ssr.js                         # Gatsby SSR config
-├── jsconfig.json                         # VSCode JS-specific config
-├── package.json
-├── README.md
-├── ROADMAP.md
-└── yarn.lock
-```
-
-## Available Scripts
-
-### Develop, build, and serve.
-
-```bash
-# Local development
+# local development
 yarn develop
 
-# Production build
+# production build
 yarn build
 
-# Serve production build
+# serve production build
 yarn serve
-```
 
-### Releases and semver
+# format code with Prettier
+yarn format
 
-The package [release-it](https://github.com/release-it/release-it) helps you tag and push your releases properly following the standard [semver](https://semver.org) convention.
+# lint code with ESLint
+yarn lint
 
-```bash
+# semver and release
 yarn release
 ```
 
-## Deploy
+### 📂 Folder Structure
 
-Running `yarn build` outputs a **ready-to-use production build** of your project to `public/`.
+```bash
+.
+├── .vscode               # VSCode workspace config
+│   ├── extensions.json
+│   └── settings.json
+├── src                   # Source code
+│   ├── components          # Components
+│   ├── containers          # Containers
+│   ├── layout              # Top level "layout" components
+│   └── pages               # Pages
+├── static                # Static assets
+│   └── images
+├── .commitlintrc.js      # Commitlint
+├── .editorconfig         # EditorConfig
+├── .env.example          # Default `dotenv` secrets
+├── .eslintrc.js          # ESLint
+├── .gitignore            # Ignored files by Git
+├── .huskyrc.js           # Husky
+├── .prettierignore       # Ignored files by Prettier
+├── .prettierrc.js        # Prettier
+├── gatsby-browser.js     # Gatsby Browser API
+├── gatsby-config.js      # Gatsby Config
+├── gatsby-node.js        # Gatsby Node API
+├── gatsby-ssr.js         # Gatsby SSR API
+├── jsconfig.json         # VSCode JS settings
+├── CHANGELOG.md
+├── LICENSE
+├── README.md
+├── ROADMAP.md
+├── package.json
+└── yarn.lock
+```
+
+## 💫 Deploy
+
+Do `yarn build` to build your app. The output in `public/` is your ready-to-use production bundle.
 
 The `public/` folder can then be statically served by any CDN, [GitHub Pages](https://pages.github.com/) or more advanced service like [Netlify](https://www.netlify.com/).
 
-Before deploying, make sure you run `yarn build && yarn serve` to preview your changes and prevent any build-time errors.
-
-## Authors
-
-**Stoyan Merdzhanov** - Initial work - [MK IT](https://mkit.io)
-
-See also the list of [contributors](https://github.com/MK-IT/gatsby-starter-essentials/community_contributors) who participated in this project.
-
-## Acknowledgments
-
-A hat-tip to Fabian Schultz ([@fschultz\_](https://twitter.com/fschultz_))! This project was heavily inspired by his starter [`gatsby-universal`](https://github.com/fabe/gatsby-universal) and hard work!
-
-## License
-
-```
-The MIT License (MIT)
-
-Copyright (c) 2018-present MK IT Ltd. <hi@mkit.io>
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+Before deploying, make sure you run `yarn build && yarn serve` to preview your changes 🏁.
