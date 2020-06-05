@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import './Page.styles.css';
 import Header from '~layout/Header';
 import Footer from '~layout/Footer';
 
