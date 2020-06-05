@@ -7,3 +7,9 @@ This is a living document and it is likely that priorities will change, but the 
 ## Nice-to-have features
 
 ## Considerable features
+
+- [ ] Set up a complete React/Gatsby test environment
+  - [ ] Unit tests
+  - [ ] Snapshot tests
+  - [ ] E2E tests
+  - [ ] Test reports
