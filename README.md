@@ -40,6 +40,8 @@ _Feel free to [submit suggestions and bug reports](https://github.com/MK-IT/gats
     gatsby develop
     ```
 
+    _Note: You can change the contents of `src/` in any way you like. The pre-defined pages and components are for demo purposes only._
+
 4.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
