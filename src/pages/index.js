@@ -1,40 +1,21 @@
 import React from 'react';
 import { Link } from 'gatsby';
+
 import Page from '~layout/Page';
 
 const IndexPage = () => (
   <Page>
-    <h1>Gatsby Starter Essentials</h1>
-
-    <div>
-      <p>TODO:</p>
-    </div>
-
-    <div>
-      <p>Essential components and layout can be found under:</p>
-      <ul>
-        <li>
-          <code>src/components</code>
-        </li>
-        <li>
-          <code>src/layout</code>
-        </li>
-      </ul>
-      <p>MK IT&apos;s opinionated theme can be found under:</p>
-      <ul>
-        <li>
-          <code>src/theme</code>
-        </li>
-      </ul>
-    </div>
-
-    <div>
-      <p>Available pages:</p>
-      <ul>
-        <li>
-          <Link to="/404">404 page</Link>
-        </li>
-      </ul>
+    <div
+      style={{
+        margin: `0 auto`,
+        maxWidth: 960,
+        padding: `0 1.0875rem 1.45rem`
+      }}
+    >
+      <h1>Hi people</h1>
+      <p>Welcome to your new Gatsby site.</p>
+      <p>Now go build something great.</p>
+      <Link to="/404">Go to custom 404 page</Link>
     </div>
   </Page>
 );
