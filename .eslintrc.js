@@ -8,6 +8,10 @@ module.exports = {
     'react/jsx-filename-extension': ['off'],
     'no-else-return': ['off']
   },
+  env: {
+    browser: true,
+    node: true
+  },
   settings: {
     'import/resolver': {
       alias: [
