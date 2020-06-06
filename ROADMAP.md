@@ -4,6 +4,8 @@ This is a living document and it is likely that priorities will change, but the 
 
 ## Must-have features
 
+- [ ] Submit to Gatsby starters for easy project kickstart
+
 ## Nice-to-have features
 
 ## Considerable features
