@@ -1,19 +1,22 @@
-# Dependency directories
+# Packages
 node_modules
 *.log
 
-# Gatsby-specific
+# Output
+lib
+dist
+public
 .cache
 
-# Env
+# Secrets
 .env
+
+# Tests
+coverage
 
 # Editors
 .idea
 .vscode
-
-# Build
-public
 
 # Misc
 .DS_Store
