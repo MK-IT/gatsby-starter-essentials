@@ -9,8 +9,8 @@
     "mkit"
   ],
   "scripts": {
-    "format": "prettier --write \"src/**/*.{js, ts, jsx, tsx, css}\"",
-    "lint": "eslint --fix \"src/**/*.{js, ts, jsx, tsx, css}\"",
+    "format": "prettier --check \"src\"",
+    "lint": "eslint --fix \"src\"",
     "develop": "gatsby develop --open -H 0.0.0.0",
     "build": "gatsby build",
     "serve": "gatsby serve",
