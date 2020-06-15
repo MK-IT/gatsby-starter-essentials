@@ -52,18 +52,19 @@ _Feel free to [submit suggestions and bug reports](https://github.com/MK-IT/gats
 
 ## ⭐ Features
 
-| Project                              | Plugins                                                                                           |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------- |
-| 💪 **Latest JS support**              | ♻️ **[NProgress](https://www.gatsbyjs.org/packages/gatsby-plugin-nprogress)**                      |
-| 💎 **ReactJS & PropTypes**            | 📈 **[Google Analytics](https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/)**       |
-| ⚡️ **ESLint, Prettier, EditorConfig** | 📈 **[Facebook Pixel](https://www.gatsbyjs.org/packages/gatsby-plugin-facebook-pixel)**            |
-| 🛠 **`.env` configuration**           | 📬 **[MailChimp](https://www.gatsbyjs.org/packages/gatsby-plugin-mailchimp)**                      |
-| 📂 **Clean folder structure**         | 📜 **[Manifest](https://www.gatsbyjs.org/packages/gatsby-plugin-manifest)**                        |
-| 🚦 **Pre-commit hooks**               | 🤖 **[Robots.txt](https://www.gatsbyjs.org/packages/gatsby-plugin-robots-txt)**                    |
-| 🤝 **Commit message linting**         | 🌐 **[Sitemap](https://www.gatsbyjs.org/packages/gatsby-plugin-sitemap)**                          |
-| :🧗🏻‍♂️: **Built-in `semver` automation** | ✈️ **[Offline](https://www.gatsbyjs.org/packages/gatsby-plugin-offline)**                          |
-| 🚀 **Production ready**               | 👉 **[Webpack Root Import](https://www.gatsbyjs.org/packages/gatsby-plugin-root-import)**          |
-|                                      | 🏋️‍♂️ **[Webpack Size](https://www.gatsbyjs.org/packages/gatsby-plugin-webpack-size/?=webpack-size)** |
+| Project                              | Plugins                                                                                           | Components                                                              |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| 💪 **Latest JS support**              | ♻️ **[NProgress](https://www.gatsbyjs.org/packages/gatsby-plugin-nprogress)**                      | 🌐 **[Page](https://www.gatsbyjs.org/docs/layout-components/)**          |
+| 💎 **ReactJS & PropTypes**            | 📈 **[Google Analytics](https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/)**       | 🌐 **Header (stub)**                                                     |
+| ⚡️ **ESLint, Prettier, EditorConfig** | 📈 **[Facebook Pixel](https://www.gatsbyjs.org/packages/gatsby-plugin-facebook-pixel)**            | 🌐 **Footer (stub)**                                                     |
+| 🛠 **`.env` configuration**           | 📬 **[MailChimp](https://www.gatsbyjs.org/packages/gatsby-plugin-mailchimp)**                      | 🌐 **[SEO + JSON-LD](https://www.gatsbyjs.org/docs/add-seo-component/)** |
+| 📂 **Clean folder structure**         | ⛑ **[React Helmet](https://www.gatsbyjs.org/packages/gatsby-plugin-react-helmet)**                |                                                                         |
+| 🚦 **Pre-commit hooks**               | 📜 **[Manifest](https://www.gatsbyjs.org/packages/gatsby-plugin-manifest)**                        |                                                                         |
+| 🤝 **Commit message linting**         | 🤖 **[Robots.txt](https://www.gatsbyjs.org/packages/gatsby-plugin-robots-txt)**                    |                                                                         |
+| :🧗🏻‍♂️: **Built-in `semver` automation** | 🌐 **[Sitemap](https://www.gatsbyjs.org/packages/gatsby-plugin-sitemap)**                          |                                                                         |
+| 🚀 **Production ready**               | ✈️ **[Offline](https://www.gatsbyjs.org/packages/gatsby-plugin-offline)**                          |                                                                         |
+|                                      | 👉 **[Webpack Root Import](https://www.gatsbyjs.org/packages/gatsby-plugin-root-import)**          |                                                                         |
+|                                      | 🏋️‍♂️ **[Webpack Size](https://www.gatsbyjs.org/packages/gatsby-plugin-webpack-size/?=webpack-size)** |                                                                         |
 
 ### 🛠 `.env` configuration
 
@@ -116,6 +117,9 @@ yarn build
 
 # serve production build
 yarn serve
+
+# clean tmp files (.cache, public)
+yarn clean
 
 # format code with Prettier
 yarn format

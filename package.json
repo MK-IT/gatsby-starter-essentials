@@ -9,6 +9,7 @@
     "mkit"
   ],
   "scripts": {
+    "clean": "gatsby clean",
     "format": "prettier --check \"src\"",
     "lint": "eslint --fix \"src\"",
     "develop": "gatsby develop --open -H 0.0.0.0",
