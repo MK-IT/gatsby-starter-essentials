@@ -4,20 +4,12 @@ const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    siteUrl: process.env.SITE_URL, // required by gatsby-plugin-robots-txt
+    siteUrl: process.env.SITE_URL,
     siteTitle: process.env.SITE_TITLE,
     siteDescription: process.env.SITE_DESCRIPTION,
     siteKeywords: process.env.SITE_KEYWORDS,
     siteThemeColor: process.env.SITE_THEME_COLOR,
     siteSocialImageUrl: process.env.SITE_SOCIAL_IMAGE_URL,
-    siteStructuredData: {
-      '@context': 'http://schema.org',
-      '@type': 'WebSite',
-      name: process.env.SITE_TITLE,
-      alternateName: process.env.SITE_ALTERNATIVE_TITLE,
-      url: process.env.SITE_URL,
-      logo: `${process.env.SITE_URL}/${process.env.SITE_LOGO_IMAGE_URL}`
-    },
     facebookAppId: process.env.FACEBOOK_APP_ID,
     twitterAccountId: process.env.TWITTER_ACCOUNT_ID
   },
