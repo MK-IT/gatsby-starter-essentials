@@ -2,6 +2,35 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/MK-IT/gatsby-starter-essentials/compare/v0.0.3...v0.0.4) (2020-06-15)
+
+
+### Features
+
+* **seo:** implement reusable SEO component ([d01ba39](https://github.com/MK-IT/gatsby-starter-essentials/commit/d01ba3945dfa323dc264ff13af870464b5a26866))
+* **seo:** set up prerequisites for SEO component ([2d03637](https://github.com/MK-IT/gatsby-starter-essentials/commit/2d03637f44b964701e17ccb0be7f4190ea1d0679))
+
+
+### Bug Fixes
+
+* **eslint:** turn off `react/jsx-props-no-spreading` ESLint rule ([855755e](https://github.com/MK-IT/gatsby-starter-essentials/commit/855755e7d4ce9762438a7be473f60b4c8261620d))
+* **eslint:** turn on `env` for browser and node ([7eb6006](https://github.com/MK-IT/gatsby-starter-essentials/commit/7eb6006a17ac578dbe2b3832b0a49b1db1e1d7ed))
+* **git:** add missing paths to `.gitignore` ([79347fb](https://github.com/MK-IT/gatsby-starter-essentials/commit/79347fb7e4a4df1c396e1973c8271821cf69ca0f))
+* **package.json:** remove incorrect `git+` from repository URL ([face5a9](https://github.com/MK-IT/gatsby-starter-essentials/commit/face5a97dc2c44b53eacf838dcfae4b2993a097d))
+* **prettier:** remove needless `.prettierignore` file ([2702946](https://github.com/MK-IT/gatsby-starter-essentials/commit/2702946083aa3ae700ddd853e99f2287313253ab))
+* **scripts:** change paths of `format` and `lint` ([1e59cb7](https://github.com/MK-IT/gatsby-starter-essentials/commit/1e59cb7a72c69dde4547ad59de09259253c93b0e))
+
+
+### Revert
+
+* **seo:** drop structured data variables and config ([4c54468](https://github.com/MK-IT/gatsby-starter-essentials/commit/4c54468c901dd317680325f42d99f013c2bc4a44))
+
+
+### Docs
+
+* **readme:** update Features and Available Script sections ([e042047](https://github.com/MK-IT/gatsby-starter-essentials/commit/e042047977bf0378b3e404bd538e08613e8aefa9))
+* **roadmap:** add must-have feature to the list ([b26b4f2](https://github.com/MK-IT/gatsby-starter-essentials/commit/b26b4f24862c190a9a2c9ac4d76189355f2ed2ab))
+
 ### [0.0.3](https://github.com/MK-IT/gatsby-starter-essentials/compare/v0.0.2...v0.0.3) (2020-06-05)
 
 
