@@ -2,9 +2,20 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import Page from '~layout/Page';
+import SEO from '~layout/SEO';
 
 const PageNotFound = () => (
   <Page>
+    <SEO
+      title="404"
+      description="Page Not Found"
+      structuredDataObject={{
+        '@context': 'http://schema.org',
+        '@type': 'WebSite',
+        name: 'Gatsby Starter Essentials'
+      }}
+    />
+
     <div
       style={{
         margin: `0 auto`,

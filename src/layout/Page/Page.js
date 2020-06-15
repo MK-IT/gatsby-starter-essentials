@@ -2,20 +2,19 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import './Page.styles.css';
+import SEO from '~layout/SEO';
 import Header from '~layout/Header';
 import Footer from '~layout/Footer';
 
 const Page = ({ children }) => {
   return (
     <>
-      {/* Placeholder for SEO */}
+      <SEO />
 
-      {/* Placeholder for Header */}
       <Header />
 
       <main>{children}</main>
 
-      {/* Placeholder for Footer */}
       <Footer />
     </>
   );
