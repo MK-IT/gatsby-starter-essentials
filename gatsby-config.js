@@ -67,6 +67,7 @@ module.exports = {
         openAnalyzer: false
       }
     },
+    'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-robots-txt',
     'gatsby-plugin-sitemap',
