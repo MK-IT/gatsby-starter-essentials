@@ -14,6 +14,16 @@ module.exports = {
     twitterAccountId: process.env.TWITTER_ACCOUNT_ID
   },
   plugins: [
+    // Comment out and asynchronously load any required fonts for better performance
+    // See https://www.gatsbyjs.org/packages/gatsby-plugin-web-font-loader/
+    // {
+    //   resolve: 'gatsby-plugin-web-font-loader',
+    //   options: {
+    //     google: {
+    //       families: ['Droid Sans', 'Droid Serif']
+    //     }
+    //   }
+    // },
     {
       resolve: `gatsby-plugin-nprogress`,
       options: {
