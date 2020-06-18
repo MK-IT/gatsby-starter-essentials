@@ -52,57 +52,54 @@ _Feel free to [submit suggestions and bug reports](https://github.com/MK-IT/gats
 
 ## ⭐ Features
 
-| Project                              | Plugins                                                                                           | Components                                                              |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| 💪 **Latest JS support**              | ♻️ **[NProgress](https://www.gatsbyjs.org/packages/gatsby-plugin-nprogress)**                      | 🌐 **[Page](https://www.gatsbyjs.org/docs/layout-components/)**          |
-| 💎 **ReactJS & PropTypes**            | 📈 **[Google Analytics](https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/)**       | 🌐 **Header (stub)**                                                     |
-| ⚡️ **ESLint, Prettier, EditorConfig** | 📈 **[Facebook Pixel](https://www.gatsbyjs.org/packages/gatsby-plugin-facebook-pixel)**            | 🌐 **Footer (stub)**                                                     |
-| 🛠 **`.env` configuration**           | 📬 **[MailChimp](https://www.gatsbyjs.org/packages/gatsby-plugin-mailchimp)**                      | 🌐 **[SEO + JSON-LD](https://www.gatsbyjs.org/docs/add-seo-component/)** |
-| 📂 **Clean folder structure**         | ⛑ **[React Helmet](https://www.gatsbyjs.org/packages/gatsby-plugin-react-helmet)**                |                                                                         |
-| 🚦 **Pre-commit hooks**               | 📜 **[Manifest](https://www.gatsbyjs.org/packages/gatsby-plugin-manifest)**                        |                                                                         |
-| 🤝 **Commit message linting**         | 🤖 **[Robots.txt](https://www.gatsbyjs.org/packages/gatsby-plugin-robots-txt)**                    |                                                                         |
-| :🧗🏻‍♂️: **Built-in `semver` automation** | 🌐 **[Sitemap](https://www.gatsbyjs.org/packages/gatsby-plugin-sitemap)**                          |                                                                         |
-| 🚀 **Production ready**               | ✈️ **[Offline](https://www.gatsbyjs.org/packages/gatsby-plugin-offline)**                          |                                                                         |
-|                                      | 👉 **[Webpack Root Import](https://www.gatsbyjs.org/packages/gatsby-plugin-root-import)**          |                                                                         |
-|                                      | 🏋️‍♂️ **[Webpack Size](https://www.gatsbyjs.org/packages/gatsby-plugin-webpack-size/?=webpack-size)** |                                                                         |
+<details open>
+  <summary><b>📂 Project</b></summary>
+  
+  <br>
 
-### 🛠 `.env` configuration
+  - [x] 💪 **Latest JS support**
+  - [x] 💎 **ReactJS & PropTypes**
+  - [x] ⚡️ **ESLint, Prettier, EditorConfig**
+  - [x] 🛠 **`.env` configuration**
+  - [x] 📂 **Clean folder structure**
+  - [x] 🚦 **Pre-commit hooks**
+  - [x] 🤝 **Commit message linting**
+  - [x] :🧗🏻‍♂️: **Built-in `semver` automation**
+  - [x] 🚀 **Production ready**
+</details>
 
-You can provide environment variables to your site to customize its behavior in different environments. See Gatsby's guide on [environment variables](https://www.gatsbyjs.org/docs/environment-variables/).
+<details open>
+  <summary><b>🌿 Plugins</b></summary>
+  
+  <br>
 
-_Gatsby's Node API can access both "OS Env Vars" and "Project Env Vars" all the time. Your client-side JS can access any "OS Env Vars" and any "Project Env Vars" prefixed with `GATSBY_`._
+  - [x] 💅 **[Styled Components](https://www.gatsbyjs.org/packages/gatsby-plugin-styled-components/)**
+  - [x] 🔠 **[Web Font Loader](https://www.gatsbyjs.org/packages/gatsby-plugin-web-font-loader/)**
+  - [x] ♻️ **[NProgress](https://www.gatsbyjs.org/packages/gatsby-plugin-nprogress)**
+  - [x] 📈 **[Google Analytics](https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/)**
+  - [x] 📈 **[Facebook Pixel](https://www.gatsbyjs.org/packages/gatsby-plugin-facebook-pixel)**
+  - [x] 📬 **[MailChimp](https://www.gatsbyjs.org/packages/gatsby-plugin-mailchimp)**
+  - [x] ⛑ **[React Helmet](https://www.gatsbyjs.org/packages/gatsby-plugin-react-helmet)**
+  - [x] 📜 **[Manifest](https://www.gatsbyjs.org/packages/gatsby-plugin-manifest)**
+  - [x] 🤖 **[Robots.txt](https://www.gatsbyjs.org/packages/gatsby-plugin-robots-txt)**
+  - [x] 🌐 **[Sitemap](https://www.gatsbyjs.org/packages/gatsby-plugin-sitemap)**
+  - [x] ✈️ **[Offline](https://www.gatsbyjs.org/packages/gatsby-plugin-offline)**
+  - [x] 👉 **[Webpack Root Import](https://www.gatsbyjs.org/packages/gatsby-plugin-root-import)**
+  - [x] 🏋️‍♂️ **[Webpack Size](https://www.gatsbyjs.org/packages/gatsby-plugin-webpack-size/?=webpack-size)**
+</details>
 
-### 🤝 Commit message linting
+<details open>
+  <summary><b>🔮 Extras</b></summary>
+  
+  <br>
 
-Keep your commit messages human- and robot-readable using a shared convention, i.e. [Commitlint](https://commitlint.js.org/#/).
-
-[Husky's](https://github.com/typicode/husky) Git hooks make sure that your commit messages follow the convention. Moreover your code will be formatted and linted before every commit.
-
-_You can use [Commitlint's CLI](https://commitlint.js.org/#/guides-use-prompt?id=guide-use-prompt) for fast authoring of your commit messages._
-
-### :🧗🏻‍♂️: Built-in `semver` automation
-
-The package [standard-version](https://github.com/conventional-changelog/standard-version) helps you generate `CHANGELOG.md`, tag, and bump the version by following the [semver](https://semver.org) convention.
-
-### 👉 Webpack Root Import (Path Aliases)
-
-The project uses [Webpack's `resolve.alias`](https://webpack.js.org/configuration/resolve/#resolvealias) feature to ease module imports.
-
-```bash
-# path aliases can be found in `gatsby-config.js`, `jsconfig.json`, and `.eslintrc.js`
-~src --> src/
-~pages --> src/pages/
-~layout --> src/layout/
-~containers --> src/containers/
-~components --> src/components/
-```
-
-```js
-// instead of...
-import MyComponent from '../../../components/MyComponent';
-// you can do...
-import MyComponent from '~components/MyComponent';
-```
+  - [x] 🔮 **[Global Theme component](https://styled-components.com/docs/advanced#theming), a.k.a. `ThemeProvider`**
+  - [x] 🔮 **[Normalize.css](http://necolas.github.io/normalize.css/) inside of the global theme wrapper**
+  - [x] 🔮 **[Page component](https://www.gatsbyjs.org/docs/layout-components/)**
+  - [x] 🔮 **Header component (stub)**
+  - [x] 🔮 **Footer component (stub)**
+  - [x] 🔮 **[SEO component with JSON-LD support](https://www.gatsbyjs.org/docs/add-seo-component/)**
+</details>
 
 ## 🧐 What's inside?
 
@@ -142,7 +139,9 @@ yarn release
 │   ├── components          # Components
 │   ├── containers          # Containers
 │   ├── layout              # Top level "layout" components
-│   └── pages               # Pages
+│   ├── pages               # Pages
+│   ├── theme               # Theme
+│   └── App.js            # Main app wrapper
 ├── static                # Static assets
 │   └── images
 ├── .commitlintrc.js      # Commitlint
@@ -151,8 +150,8 @@ yarn release
 ├── .eslintrc.js          # ESLint
 ├── .gitignore            # Ignored files by Git
 ├── .huskyrc.js           # Husky
-├── .prettierignore       # Ignored files by Prettier
 ├── .prettierrc.js        # Prettier
+├── .versionrc.js         # Standard Version config
 ├── gatsby-browser.js     # Gatsby Browser API
 ├── gatsby-config.js      # Gatsby Config
 ├── gatsby-node.js        # Gatsby Node API
@@ -165,6 +164,62 @@ yarn release
 ├── package.json
 └── yarn.lock
 ```
+
+### 🎛 Configure
+
+#### 🛠 `.env` configuration
+
+You can provide environment variables to your site to customize its behavior in different environments. See Gatsby's guide on [environment variables](https://www.gatsbyjs.org/docs/environment-variables/).
+
+_Gatsby's Node API can access both "OS Env Vars" and "Project Env Vars" all the time. Your client-side JS can access any "OS Env Vars" and any "Project Env Vars" prefixed with `GATSBY_`._
+
+#### 🤝 Commit message linting
+
+Keep your commit messages human- and robot-readable using a shared convention, i.e. [Commitlint](https://commitlint.js.org/#/).
+
+[Husky's](https://github.com/typicode/husky) Git hooks make sure that your commit messages follow the convention. Moreover your code will be formatted and linted before every commit.
+
+_You can use [Commitlint's CLI](https://commitlint.js.org/#/guides-use-prompt?id=guide-use-prompt) for fast authoring of your commit messages._
+
+#### :🧗🏻‍♂️: Built-in `semver` automation
+
+The package [standard-version](https://github.com/conventional-changelog/standard-version) helps you generate `CHANGELOG.md`, tag, and bump the version by following the [semver](https://semver.org) convention.
+
+#### 👉 Webpack Root Import (Path Aliases)
+
+The project uses [Webpack's `resolve.alias`](https://webpack.js.org/configuration/resolve/#resolvealias) feature to ease module imports.
+
+```bash
+# path aliases can be found in `gatsby-config.js`, `jsconfig.json`, and `.eslintrc.js`
+~src --> src/
+~pages --> src/pages/
+~layout --> src/layout/
+~containers --> src/containers/
+~components --> src/components/
+```
+
+```js
+// instead of...
+import MyComponent from '../../../components/MyComponent';
+// you can do...
+import MyComponent from '~components/MyComponent';
+```
+
+#### 🔠 Web Font Loader
+
+Set the font families you need and uncomment `gatsby-plugin-web-font-loader` in `gatsby-config.js`. That's it.
+
+#### 🔮 Global Theme and Normalize.css
+
+Decisions made about theme and styling.
+
+1. Use `styled-components` for styling
+2. The theme should wrap the application at the highest possible level via Gatsby's `wrapRootElement`
+3. The theme should export definitions and utility functions from `theme/`
+4. The theme should be accessible in any possible React-ish way, i.e. `import`, hooks, context, and in `styled\`\`` components.
+5. The theme should be configurable to enable dynamic changes, e.g. to support dark mode
+
+_Note: The `Page` component can be wrapped around any page created by Gatsby using `wrapPageElement` to avoid duplicate code. However, if we do this we lose control over it and cannot pass any helpful props like for instance `hideHeader`. Therefore each page under `pages/` should be wrapped with `Page` component. The repeating code is minimal and reasonable. See `src/pages/404.js` for example usage._
 
 ## 💫 Deploy
 
