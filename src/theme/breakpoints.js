@@ -32,6 +32,40 @@ const values = {
 };
 
 /**
+ * Get min and max pixel size for every predefined breakpoint
+ *
+ * Note: This function does not accept custom sizes as pixels.
+ * The provided key must be one of the predefined breakpoints keys such as 'xs', 'sm', etc.
+ *
+ * @param {string} key
+ * @returns {object} The min and max width in pixels
+ *
+ * @example
+ * // `{ minWidth: 0, maxWidth: 599.95px}`
+ * theme.breakpoint.getBoundaries('xs');
+ */
+function getBoundaries(key) {
+  const isValidKey = key && typeof key === 'string' && keys.indexOf(key) !== -1;
+  if (!isValidKey) {
+    throw new Error(
+      `The specified key '${key}' should be one of the predefined string values [${keys}].`
+    );
+  }
+
+  const nextIndex = keys.indexOf(key) + 1;
+  const upperBoundary = values[keys[nextIndex]];
+  const hasUpperBoundary = typeof upperBoundary === 'number' && nextIndex > 0;
+
+  const minWidth = values[key];
+  const maxWidth = hasUpperBoundary ? upperBoundary - microStep : null;
+
+  return {
+    minWidth,
+    maxWidth
+  };
+}
+
+/**
  * Generate `up` media query string
  *
  * Matches screen widths greater than and including the screen size given by the breakpoint key.
@@ -144,6 +178,7 @@ export default {
   step,
   keys,
   values,
+  getBoundaries,
   up,
   down,
   between,
