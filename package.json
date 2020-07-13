@@ -48,7 +48,7 @@
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.10",
     "husky": "^4.2.5",
     "prettier": "^2.0.5",
-    "standard-version": "^8.0.0"
+    "standard-version": "^8.0.1"
   },
   "author": "MK IT Ltd. <hi@mkit.io>",
   "homepage": "https://github.com/MK-IT/gatsby-starter-essentials",
