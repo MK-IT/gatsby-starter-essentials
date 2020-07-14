@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/MK-IT/gatsby-starter-essentials/compare/v0.0.4...v0.0.5) (2020-07-14)
+
+
+### Chores
+
+* update all packages to latest ([bb985f0](https://github.com/MK-IT/gatsby-starter-essentials/commit/bb985f01b07973efea278b133f5beab687001360))
+* **deps:** [security] bump graphql-playground-html ([381ede2](https://github.com/MK-IT/gatsby-starter-essentials/commit/381ede2a56edf6d80c44424a5c1d6ef48d13236f))
+* **deps:** bump gatsby from 2.23.0 to 2.23.12 ([065db4c](https://github.com/MK-IT/gatsby-starter-essentials/commit/065db4c9b1b7d15a42f556c50d125e947fe3a2d6))
+* **deps-dev:** bump eslint-plugin-import from 2.20.2 to 2.22.0 ([87b273b](https://github.com/MK-IT/gatsby-starter-essentials/commit/87b273b9aef1cc15c3ea4af0613f3e99a0910c42))
+* **deps-dev:** bump eslint-plugin-react from 7.20.0 to 7.20.3 ([923ed7b](https://github.com/MK-IT/gatsby-starter-essentials/commit/923ed7b6cdc6fc373126b032cba22ec64c287370))
+
 ### [0.0.4](https://github.com/MK-IT/gatsby-starter-essentials/compare/v0.0.3...v0.0.4) (2020-06-15)
 
 
