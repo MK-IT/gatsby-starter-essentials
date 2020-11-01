@@ -25,7 +25,7 @@
     "gatsby-plugin-manifest": "^2.4.14",
     "gatsby-plugin-nprogress": "^2.3.3",
     "gatsby-plugin-offline": "^3.2.8",
-    "gatsby-plugin-react-helmet": "^3.3.4",
+    "gatsby-plugin-react-helmet": "^3.3.14",
     "gatsby-plugin-robots-txt": "^1.5.1",
     "gatsby-plugin-sitemap": "^2.4.4",
     "prop-types": "^15.7.2",
