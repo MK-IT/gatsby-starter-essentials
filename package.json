@@ -27,7 +27,7 @@
     "gatsby-plugin-offline": "^3.2.8",
     "gatsby-plugin-react-helmet": "^3.3.4",
     "gatsby-plugin-robots-txt": "^1.5.1",
-    "gatsby-plugin-sitemap": "^2.4.4",
+    "gatsby-plugin-sitemap": "^2.4.17",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
