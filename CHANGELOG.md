@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/MK-IT/gatsby-starter-essentials/compare/v0.0.5...v0.0.6) (2020-11-12)
+
+
+### Chores
+
+* **deps:** update dependencies ([641757f](https://github.com/MK-IT/gatsby-starter-essentials/commit/641757fede1936348e9827c57d8aa3512dc7c4de))
+* **deps:** upgrade dependencies ([8e7d98a](https://github.com/MK-IT/gatsby-starter-essentials/commit/8e7d98abce6921e516cd00494ec1e9e600bdbb74))
+
 ### [0.0.5](https://github.com/MK-IT/gatsby-starter-essentials/compare/v0.0.4...v0.0.5) (2020-07-14)
 
 
