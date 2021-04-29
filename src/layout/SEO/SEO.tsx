@@ -1,7 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+
 import { Helmet } from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
+import * as React from 'react';
+import * as PropTypes from 'prop-types';
+
 
 const siteMetadataQuery = graphql`
   query {
@@ -114,7 +116,7 @@ SEO.propTypes = {
   keywords: PropTypes.string,
   image: PropTypes.string,
   canonicalUrl: PropTypes.string,
-  structuredDataObject: PropTypes.shape()
+  structuredDataObject: PropTypes.shape({})
 };
 
 SEO.defaultProps = {
