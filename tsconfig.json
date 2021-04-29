@@ -1,6 +1,16 @@
 {
   "exclude": ["node_modules", "public", ".cache"],
   "compilerOptions": {
+    "target": "es2015",
+    "module": "es2015",
+    "lib": ["dom", "es2017"],
+    "strict": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "jsx": "react",
     "baseUrl": ".",
     "paths": {
       "~src/*": ["src/*"],
