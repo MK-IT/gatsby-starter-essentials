@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  extends: ['airbnb', 'prettier', 'prettier/react'],
+  extends: ['airbnb', 'prettier'],
   plugins: ['prettier'],
   rules: {
     'prettier/prettier': ['error'],
