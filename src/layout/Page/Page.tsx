@@ -6,7 +6,7 @@ import SEO from '~layout/SEO';
 import Header from '~layout/Header';
 import Footer from '~layout/Footer';
 
-const Page = ({ children }: {children: JSX.Element[] | JSX.Element}) => (
+const Page = ({ children }: any) => (
   <>
     <SEO />
 
