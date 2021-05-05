@@ -1,8 +1,8 @@
 
 import { Helmet } from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
-import * as React from 'react';
-import * as PropTypes from 'prop-types';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 
 const siteMetadataQuery = graphql`
@@ -29,6 +29,13 @@ const SEO = ({
   image,
   canonicalUrl,
   structuredDataObject
+}: {
+  title: string,
+  description: string,
+  keywords: string,
+  image: string,
+  canonicalUrl: string,
+  structuredDataObject: Object
 }) => {
   const {
     site: {
