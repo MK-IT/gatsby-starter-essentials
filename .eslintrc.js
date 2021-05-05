@@ -43,5 +43,6 @@ module.exports = {
       "import/extensions": "off",
       "no-use-before-define": "off",
       "@typescript-eslint/no-use-before-define": ["error"]
-    }
+    },
+    "ignorePatterns": ["*.css"],
 };
