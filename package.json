@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "gatsby": "^3.4.2",
-    "gatsby-plugin-facebook-pixel": "^1.0.5",
+    "gatsby-plugin-facebook-pixel": "^1.0.6",
     "gatsby-plugin-google-analytics": "^3.4.0",
     "gatsby-plugin-mailchimp": "^5.2.2",
     "gatsby-plugin-manifest": "^3.4.0",
