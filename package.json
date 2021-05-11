@@ -24,7 +24,7 @@
     "gatsby-plugin-google-analytics": "^3.4.0",
     "gatsby-plugin-mailchimp": "^5.2.2",
     "gatsby-plugin-manifest": "^3.4.0",
-    "gatsby-plugin-nprogress": "^2.3.13",
+    "gatsby-plugin-nprogress": "^3.4.0",
     "gatsby-plugin-offline": "^3.3.3",
     "gatsby-plugin-react-helmet": "^3.3.14",
     "gatsby-plugin-robots-txt": "^1.5.3",
