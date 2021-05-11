@@ -9,6 +9,7 @@
     "mkit"
   ],
   "scripts": {
+    "prepare": "husky install",
     "clean": "gatsby clean",
     "format": "prettier --check \"src\"",
     "lint": "eslint --fix \"src\"",
@@ -46,7 +47,7 @@
     "eslint-plugin-react": "^7.21.5",
     "gatsby-plugin-root-import": "^2.0.5",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.13",
-    "husky": "^4.3.0",
+    "husky": "^6.0.0",
     "prettier": "^2.1.2",
     "standard-version": "^9.0.0"
   },

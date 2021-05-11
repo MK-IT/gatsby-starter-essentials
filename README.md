@@ -135,6 +135,9 @@ yarn release
 
 ```bash
 .
+├── .husky                # VSCode workspace config
+│   ├── commit-msg          # commitlint messages
+│   └── pre-commit          # format and lint code
 ├── .vscode               # VSCode workspace config
 │   ├── extensions.json
 │   └── settings.json
@@ -150,7 +153,6 @@ yarn release
 ├── .env.example          # Default `dotenv` secrets
 ├── .eslintrc.js          # ESLint
 ├── .gitignore            # Ignored files by Git
-├── .huskyrc.js           # Husky
 ├── .prettierignore       # Ignored files by Prettier
 ├── .prettierrc.js        # Prettier
 ├── gatsby-browser.js     # Gatsby Browser API
