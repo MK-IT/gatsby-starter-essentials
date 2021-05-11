@@ -1,17 +1,23 @@
 const path = require('path');
 
 module.exports = {
-  extends: ['airbnb', 'prettier', 'prettier/react'],
-  plugins: ['prettier'],
-  rules: {
-    'prettier/prettier': ['error'],
-    'react/jsx-filename-extension': ['off'],
-    'react/jsx-props-no-spreading': ['off'],
-    'no-else-return': ['off']
-  },
+  extends: ['plugin:react/recommended', 'airbnb', 'prettier'],
+  plugins: ['react'],
   env: {
     browser: true,
+    es2021: true,
     node: true
+  },
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true
+    },
+    ecmaVersion: 12,
+    sourceType: 'module'
+  },
+  rules: {
+    'react/jsx-filename-extension': ['off'],
+    'react/jsx-props-no-spreading': ['off']
   },
   settings: {
     'import/resolver': {

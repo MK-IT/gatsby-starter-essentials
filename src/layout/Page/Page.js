@@ -6,19 +6,17 @@ import SEO from '~layout/SEO';
 import Header from '~layout/Header';
 import Footer from '~layout/Footer';
 
-const Page = ({ children }) => {
-  return (
-    <>
-      <SEO />
+const Page = ({ children }) => (
+  <>
+    <SEO />
 
-      <Header />
+    <Header />
 
-      <main>{children}</main>
+    <main>{children}</main>
 
-      <Footer />
-    </>
-  );
-};
+    <Footer />
+  </>
+);
 
 Page.propTypes = {
   children: PropTypes.node.isRequired
