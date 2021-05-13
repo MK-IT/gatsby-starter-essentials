@@ -61,9 +61,9 @@ _Help us improve by [submitting suggestions and bug reports](https://github.com/
 | 📂 **Clean folder structure**         | ⛑ **[React Helmet](https://www.gatsbyjs.org/packages/gatsby-plugin-react-helmet)**                            |                                                                         |
 | 🚦 **Pre-commit hooks**               | 📜 **[Manifest](https://www.gatsbyjs.org/packages/gatsby-plugin-manifest)**                                    |                                                                         |
 | 🤝 **Commit message linting**         | 🤖 **[Robots.txt](https://www.gatsbyjs.org/packages/gatsby-plugin-robots-txt)**                                |                                                                         |
-| :🧗🏻‍♂️: **Built-in `semver` automation** | 🌐 **[Sitemap](https://www.gatsbyjs.org/packages/gatsby-plugin-sitemap)**                                      |                                                                         |
-| 🚀 **Production ready**               | ✈️ **[Offline](https://www.gatsbyjs.org/packages/gatsby-plugin-offline)**                                      |                                                                         |
-|                                      | 👉 **[Webpack Root Import](https://www.gatsbyjs.org/packages/gatsby-plugin-root-import)**                      |                                                                         |
+| 🧗🏻‍♂️ **Built-in `semver` automation**   | 🌐 **[Sitemap](https://www.gatsbyjs.org/packages/gatsby-plugin-sitemap)**                                      |                                                                         |
+| 🐛 **VSCode Launch and Debug**        | ✈️ **[Offline](https://www.gatsbyjs.org/packages/gatsby-plugin-offline)**                                      |                                                                         |
+| 🚀 **Production ready**               | 👉 **[Webpack Root Import](https://www.gatsbyjs.org/packages/gatsby-plugin-root-import)**                      |                                                                         |
 |                                      | 🏋️‍♂️ **[Webpack Bundle Analyser v2](https://www.gatsbyjs.com/plugins/gatsby-plugin-webpack-bundle-analyser-v2)** |                                                                         |
 
 ### 🛠 `.env` configuration
