@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  extends: ['plugin:react/recommended', 'airbnb', 'prettier'],
+  extends: ['plugin:react/recommended', 'airbnb', 'airbnb/hooks', 'prettier'],
   plugins: ['react'],
   env: {
     browser: true,
