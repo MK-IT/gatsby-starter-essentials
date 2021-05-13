@@ -52,19 +52,19 @@ _Help us improve by [submitting suggestions and bug reports](https://github.com/
 
 ## ⭐ Features
 
-| Project                              | Plugins                                                                                           | Components                                                              |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| 💪 **Latest JS support**              | ♻️ **[NProgress](https://www.gatsbyjs.org/packages/gatsby-plugin-nprogress)**                      | 🌐 **[Page](https://www.gatsbyjs.org/docs/layout-components/)**          |
-| 💎 **ReactJS & PropTypes**            | 📈 **[Google Analytics](https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/)**       | 🌐 **Header (stub)**                                                     |
-| ⚡️ **ESLint, Prettier, EditorConfig** | 📈 **[Facebook Pixel](https://www.gatsbyjs.org/packages/gatsby-plugin-facebook-pixel)**            | 🌐 **Footer (stub)**                                                     |
-| 🛠 **`.env` configuration**           | 📬 **[MailChimp](https://www.gatsbyjs.org/packages/gatsby-plugin-mailchimp)**                      | 🌐 **[SEO + JSON-LD](https://www.gatsbyjs.org/docs/add-seo-component/)** |
-| 📂 **Clean folder structure**         | ⛑ **[React Helmet](https://www.gatsbyjs.org/packages/gatsby-plugin-react-helmet)**                |                                                                         |
-| 🚦 **Pre-commit hooks**               | 📜 **[Manifest](https://www.gatsbyjs.org/packages/gatsby-plugin-manifest)**                        |                                                                         |
-| 🤝 **Commit message linting**         | 🤖 **[Robots.txt](https://www.gatsbyjs.org/packages/gatsby-plugin-robots-txt)**                    |                                                                         |
-| :🧗🏻‍♂️: **Built-in `semver` automation** | 🌐 **[Sitemap](https://www.gatsbyjs.org/packages/gatsby-plugin-sitemap)**                          |                                                                         |
-| 🚀 **Production ready**               | ✈️ **[Offline](https://www.gatsbyjs.org/packages/gatsby-plugin-offline)**                          |                                                                         |
-|                                      | 👉 **[Webpack Root Import](https://www.gatsbyjs.org/packages/gatsby-plugin-root-import)**          |                                                                         |
-|                                      | 🏋️‍♂️ **[Webpack Size](https://www.gatsbyjs.org/packages/gatsby-plugin-webpack-size/?=webpack-size)** |                                                                         |
+| Project                              | Plugins                                                                                                       | Components                                                              |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| 💪 **Latest JS support**              | ♻️ **[NProgress](https://www.gatsbyjs.org/packages/gatsby-plugin-nprogress)**                                  | 🌐 **[Page](https://www.gatsbyjs.org/docs/layout-components/)**          |
+| 💎 **ReactJS & PropTypes**            | 📈 **[Google Analytics](https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/)**                   | 🌐 **Header (stub)**                                                     |
+| ⚡️ **ESLint, Prettier, EditorConfig** | 📈 **[Facebook Pixel](https://www.gatsbyjs.org/packages/gatsby-plugin-facebook-pixel)**                        | 🌐 **Footer (stub)**                                                     |
+| 🛠 **`.env` configuration**           | 📬 **[MailChimp](https://www.gatsbyjs.org/packages/gatsby-plugin-mailchimp)**                                  | 🌐 **[SEO + JSON-LD](https://www.gatsbyjs.org/docs/add-seo-component/)** |
+| 📂 **Clean folder structure**         | ⛑ **[React Helmet](https://www.gatsbyjs.org/packages/gatsby-plugin-react-helmet)**                            |                                                                         |
+| 🚦 **Pre-commit hooks**               | 📜 **[Manifest](https://www.gatsbyjs.org/packages/gatsby-plugin-manifest)**                                    |                                                                         |
+| 🤝 **Commit message linting**         | 🤖 **[Robots.txt](https://www.gatsbyjs.org/packages/gatsby-plugin-robots-txt)**                                |                                                                         |
+| :🧗🏻‍♂️: **Built-in `semver` automation** | 🌐 **[Sitemap](https://www.gatsbyjs.org/packages/gatsby-plugin-sitemap)**                                      |                                                                         |
+| 🚀 **Production ready**               | ✈️ **[Offline](https://www.gatsbyjs.org/packages/gatsby-plugin-offline)**                                      |                                                                         |
+|                                      | 👉 **[Webpack Root Import](https://www.gatsbyjs.org/packages/gatsby-plugin-root-import)**                      |                                                                         |
+|                                      | 🏋️‍♂️ **[Webpack Bundle Analyser v2](https://www.gatsbyjs.com/plugins/gatsby-plugin-webpack-bundle-analyser-v2)** |                                                                         |
 
 ### 🛠 `.env` configuration
 
@@ -103,6 +103,14 @@ import MyComponent from '../../../components/MyComponent';
 // you can do...
 import MyComponent from '~components/MyComponent';
 ```
+
+### 🏋️‍♂️ Webpack Bundle Analyser v2
+
+Under the hood the plugin uses [Webpack Bundle Analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer) to visualize the size of your bundle's output files.
+
+The plugin automatically generates a static HTML report on production build, i.e. on `yarn build`.
+
+You can find the generated report under `/public/report.html`.
 
 ## 🧐 What's inside?
 
