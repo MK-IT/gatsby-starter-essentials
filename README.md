@@ -1,15 +1,15 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  <a href="https://www.gatsbyjs.com">
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
   Gatsby Starter Essentials
 </h1>
 
-[Gatsby default starter](https://github.com/gatsbyjs/gatsby-starter-default) extended with tools to help you boost your development experience.
+[Gatsby's default starter](https://github.com/gatsbyjs/gatsby-starter-default) extended with tools to help you boost your development experience.
 
-_Feel free to [submit suggestions and bug reports](https://github.com/MK-IT/gatsby-starter-essentials/issues)._
+_Help us improve by [submitting suggestions and bug reports](https://github.com/MK-IT/gatsby-starter-essentials/issues)._
 
 ## 🚀 Getting Started
 
@@ -153,8 +153,8 @@ yarn release
 ├── .env.example          # Default `dotenv` secrets
 ├── .eslintrc.js          # ESLint
 ├── .gitignore            # Ignored files by Git
-├── .prettierignore       # Ignored files by Prettier
 ├── .prettierrc.js        # Prettier
+├── .versionrc.js         # Standard Version
 ├── gatsby-browser.js     # Gatsby Browser API
 ├── gatsby-config.js      # Gatsby Config
 ├── gatsby-node.js        # Gatsby Node API
