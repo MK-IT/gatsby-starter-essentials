@@ -7,7 +7,10 @@
       "request": "launch",
       "program": "${workspaceRoot}/node_modules/.bin/gatsby",
       "args": ["clean"],
-      "console": "integratedTerminal"
+      "console": "integratedTerminal",
+      "windows": {
+        "program": "${workspaceRoot}/node_modules/gatsby/dist/bin/gatsby"
+      },
     },
     {
       "name": "Format",
@@ -15,7 +18,10 @@
       "request": "launch",
       "program": "${workspaceRoot}/node_modules/.bin/prettier",
       "args": ["--write", "src"],
-      "console": "integratedTerminal"
+      "console": "integratedTerminal",
+      "windows": {
+        "program": "${workspaceRoot}/node_modules/prettier/bin-prettier"
+      },
     },
     {
       "name": "Lint",
@@ -23,7 +29,10 @@
       "request": "launch",
       "program": "${workspaceRoot}/node_modules/.bin/eslint",
       "args": ["--fix", "src"],
-      "console": "integratedTerminal"
+      "console": "integratedTerminal",
+      "windows": {
+        "program": "${workspaceRoot}/node_modules/eslint/bin/eslint"
+      },
     },
     {
       "name": "Develop",
@@ -32,7 +41,10 @@
       "program": "${workspaceRoot}/node_modules/.bin/gatsby",
       "args": ["develop", "--open", "-H", "0.0.0.0"],
       "runtimeArgs": ["--nolazy"],
-      "console": "integratedTerminal"
+      "console": "integratedTerminal",
+      "windows": {
+        "program": "${workspaceRoot}/node_modules/gatsby/dist/bin/gatsby"
+      },
     },
     {
       "name": "Build",
@@ -41,7 +53,10 @@
       "program": "${workspaceRoot}/node_modules/.bin/gatsby",
       "args": ["build"],
       "runtimeArgs": ["--nolazy"],
-      "console": "integratedTerminal"
+      "console": "integratedTerminal",
+      "windows": {
+        "program": "${workspaceRoot}/node_modules/gatsby/dist/bin/gatsby"
+      },
     },
     {
       "name": "Serve",
@@ -50,7 +65,10 @@
       "program": "${workspaceRoot}/node_modules/.bin/gatsby",
       "args": ["serve"],
       "runtimeArgs": ["--nolazy"],
-      "console": "integratedTerminal"
+      "console": "integratedTerminal",
+      "windows": {
+        "program": "${workspaceRoot}/node_modules/gatsby/dist/bin/gatsby"
+      },
     },
     {
       "name": "Release Dry Run",
@@ -59,7 +77,10 @@
       "program": "${workspaceRoot}/node_modules/.bin/standard-version",
       "args": ["--dry-run"],
       "runtimeArgs": ["--nolazy"],
-      "console": "integratedTerminal"
+      "console": "integratedTerminal",
+      "windows": {
+        "program": "${workspaceRoot}/node_modules/standard-version/bin/cli"
+      },
     }
   ]
 }
