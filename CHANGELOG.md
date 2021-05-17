@@ -2,6 +2,57 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.0](https://github.com/MK-IT/gatsby-starter-essentials/compare/v0.0.6...v0.1.0) (2021-05-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** upgrade ESLint, Prettier, and `format` script
+* **deps:** upgrade Gatsby
+* **deps:** upgrade commitlint
+* **deps:** upgrade Husky to v6
+
+### Features
+
+* **eslint:** extend airbnb/hooks to enable React Hooks linting ([ae1709e](https://github.com/MK-IT/gatsby-starter-essentials/commit/ae1709e00075f99c7ab38c5703383e224f994948))
+* **vscode:** add launch configuration profiles ([08feca6](https://github.com/MK-IT/gatsby-starter-essentials/commit/08feca69417ff9d9c33d5386269bb24a20804a62))
+
+
+### Bug Fixes
+
+* **vscode:** enable debugger for windows ([329c180](https://github.com/MK-IT/gatsby-starter-essentials/commit/329c180d1e0b66e513c18628a8d714abe2b308e3))
+
+
+### Chores
+
+* **deps:** update `react` and `react-dom` packages ([5c8fdf0](https://github.com/MK-IT/gatsby-starter-essentials/commit/5c8fdf02fb6279dc3dd04e49cc195c5fa4e93029))
+* **deps:** update gatsby-plugin-facebook-pixel ([e04609b](https://github.com/MK-IT/gatsby-starter-essentials/commit/e04609ba68aca8382f2e6151bd444cf0180aaf47))
+* **deps:** update gatsby-plugin-robots-txt ([b8bf373](https://github.com/MK-IT/gatsby-starter-essentials/commit/b8bf3731466f2d78f084205aef73dd069a34c066))
+* **deps:** upgrade ESLint, Prettier, and `format` script ([a9fcf6b](https://github.com/MK-IT/gatsby-starter-essentials/commit/a9fcf6b21cefba2b817c450423d8451eab580131))
+* simplify .editorconfig ([e191f9c](https://github.com/MK-IT/gatsby-starter-essentials/commit/e191f9c818a27f3f544315c3e1e9c59c5576de46))
+* **deps:** update gatsby-plugin-root-import ([223d370](https://github.com/MK-IT/gatsby-starter-essentials/commit/223d370a5d7acf8ffd3d830c43ec880fc7fbe08c))
+* **deps:** update gatsby-plugin-webpack-bundle-analyzer-v2 ([fe720e7](https://github.com/MK-IT/gatsby-starter-essentials/commit/fe720e7e631cc7aeefe21718316315397680a59e))
+* **deps:** update Prettier ([9ed45a9](https://github.com/MK-IT/gatsby-starter-essentials/commit/9ed45a94a1fc239c0f58ef8cf5e88d5ab8ddce05))
+* **deps:** update standard-version ([76740a7](https://github.com/MK-IT/gatsby-starter-essentials/commit/76740a745d741361daf5b31e77479de6ac362dad))
+* **deps:** upgrade commitlint ([312a5ca](https://github.com/MK-IT/gatsby-starter-essentials/commit/312a5ca3cc2315c9f845654f2e7ecfaf2a15c6bf))
+* **deps:** upgrade Gatsby ([222aa3b](https://github.com/MK-IT/gatsby-starter-essentials/commit/222aa3b2af809f4bbf9a07f70fdab7b7d6114734))
+* **deps:** upgrade gatsby-plugin-google-analytics ([55883b0](https://github.com/MK-IT/gatsby-starter-essentials/commit/55883b070d4406858bcd25e4c6f44813e95b88fc))
+* **deps:** upgrade gatsby-plugin-manifest ([79a1a85](https://github.com/MK-IT/gatsby-starter-essentials/commit/79a1a85341fd370e245204525a3f090b1a1b4bd7))
+* **deps:** upgrade gatsby-plugin-nprogress ([b8a3dc5](https://github.com/MK-IT/gatsby-starter-essentials/commit/b8a3dc5d0b99f4ce6e32cc8958650aefd4c2a0e3))
+* **deps:** upgrade gatsby-plugin-offline ([2849c0e](https://github.com/MK-IT/gatsby-starter-essentials/commit/2849c0ef95b749fde1c2e23a4b21cf9b8cde59a8))
+* **deps:** upgrade gatsby-plugin-react-helmet ([f77ccf7](https://github.com/MK-IT/gatsby-starter-essentials/commit/f77ccf7e723659b6727274949d3c6c72fd34af5c))
+* **deps:** upgrade gatsby-plugin-sitemap ([193c595](https://github.com/MK-IT/gatsby-starter-essentials/commit/193c595df3a418406bfcfa62cea9f676a8d535a8))
+* **deps:** upgrade Husky to v6 ([0c277e6](https://github.com/MK-IT/gatsby-starter-essentials/commit/0c277e6ea8fa767df8e610bc113bc9f2fdfd08b9))
+* **peer-deps:** update caniuse-lite ([d0183c1](https://github.com/MK-IT/gatsby-starter-essentials/commit/d0183c1577606423964e544296ab0c9782049a4d))
+
+
+### Docs
+
+* add VSCode launch and debug features to `README.md` ([71133ba](https://github.com/MK-IT/gatsby-starter-essentials/commit/71133ba5dc053edb8f333c3736094de8fdaf7432))
+* delete `ROADMAP.md` in favor of using GH Issues ([cf53b12](https://github.com/MK-IT/gatsby-starter-essentials/commit/cf53b128a4db911639b05c9b8fb0fccd03dab2ec))
+* update header and folder structure of `README.md` ([501cdfb](https://github.com/MK-IT/gatsby-starter-essentials/commit/501cdfbd0ed0a08aaf88f0cb4ac85995beb1cd37))
+* update notes about Webpack Bundle Analyzer ([72b8d77](https://github.com/MK-IT/gatsby-starter-essentials/commit/72b8d7743d4966db9620a6efc83754dd093eb0f9))
+
 ### [0.0.6](https://github.com/MK-IT/gatsby-starter-essentials/compare/v0.0.5...v0.0.6) (2020-11-12)
 
 
