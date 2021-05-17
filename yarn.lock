@@ -5570,9 +5570,9 @@ gatsby-page-utils@^1.4.0:
     micromatch "^4.0.2"
 
 gatsby-plugin-facebook-pixel@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-facebook-pixel/-/gatsby-plugin-facebook-pixel-1.0.6.tgz#fa73c31679b1ea15ce7caf60836aeb843af734bb"
-  integrity sha512-UO2eDivHt3c+I41TF6M4AA3i7WmbeP1ZvJMoPSddd1wxcdbmeiMxICGdfNZdBXrxkicY2F8d6nVA6psz/X75aA==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-facebook-pixel/-/gatsby-plugin-facebook-pixel-1.0.7.tgz#a2f3c12e8ddba66d76b297dcbce33547310eef15"
+  integrity sha512-KzCQLDHPE1RmqtmPTO7wIGdMxODn42wJuh/YQfI5aPjh2EF+3NjhYjbf4mlkSV34rl/3kLrv3ifLk3IBBXq7eA==
 
 gatsby-plugin-google-analytics@^3.4.0:
   version "3.5.0"
