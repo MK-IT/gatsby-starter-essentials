@@ -1,14 +1,16 @@
-const path = require('path');
+const path = require("path");
 
 module.exports = {
-  extends: ['plugin:react/recommended', 'airbnb', 'airbnb/hooks', 'prettier'],
-  plugins: ['react'],
+  extends: ['plugin:react/recommended', 'airbnb-typescript', 'prettier'],
+  parser: '@typescript-eslint/parser',
+  plugins: ['react','@typescript-eslint'],
   env: {
     browser: true,
     es2021: true,
     node: true
   },
   parserOptions: {
+    project: './tsconfig.json',
     ecmaFeatures: {
       jsx: true
     },
@@ -21,6 +23,9 @@ module.exports = {
   },
   settings: {
     'import/resolver': {
+      typescript: {
+        alwaysTryTypes: true
+      },
       alias: [
         ['~src', path.join(__dirname, 'src')],
         ['~pages', path.join(__dirname, 'src/pages')],
@@ -29,5 +34,6 @@ module.exports = {
         ['~components', path.join(__dirname, 'src/components')]
       ]
     }
-  }
+  },
+  ignorePatterns: ['.eslintrc.js']
 };
