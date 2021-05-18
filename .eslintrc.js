@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  extends: ['plugin:react/recommended', 'airbnb-typescript', 'prettier'],
+  extends: ['plugin:react/recommended', 'airbnb-typescript', 'airbnb/hooks', 'prettier'],
   parser: '@typescript-eslint/parser',
   plugins: ['react','@typescript-eslint'],
   env: {
