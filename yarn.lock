@@ -999,10 +999,10 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.3.4", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
-  version "7.14.0"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.0.tgz#46794bc20b612c5f75e62dd071e24dfd95f1cbe6"
-  integrity sha512-JELkvo/DlpNdJ7dlyw/eY7E0suy5i5GQH+Vlxaq1nsNJ+H7f4Vtv3jMeCEgRhZZQFXTjldYfQgv2qmM6M1v5wA==
+"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.14.6", "@babel/runtime@^7.3.4", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+  version "7.14.8"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.8.tgz#7119a56f421018852694290b9f9148097391b446"
+  integrity sha512-twj3L8Og5SaCRCErB4x4ajbvBIVV77CGeFglHpeg5WC5FF8TZzBWXtTJ4MqaD9QszLYTtr+IsaAL2rEUevb+eg==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -5482,12 +5482,13 @@ gatsby-plugin-facebook-pixel@^1.0.6:
   integrity sha512-KzCQLDHPE1RmqtmPTO7wIGdMxODn42wJuh/YQfI5aPjh2EF+3NjhYjbf4mlkSV34rl/3kLrv3ifLk3IBBXq7eA==
 
 gatsby-plugin-google-analytics@^3.4.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-3.5.0.tgz#f0cb53730bf65d2e75581896f6811a3c95525370"
-  integrity sha512-HLByaS3U8tZtpoRs3hDx0fYX1jnmkhue4prsR7OKEj2pzAZUGMkbK5sDiugiHdxdx/b4/PKXjP5lQceUr3VAYA==
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-3.10.0.tgz#a1b51b9e4fb2aed8eb6ec93d5d8dd08b50950038"
+  integrity sha512-vLYTZm2tNwT2R3EogCuG7f/UQm3cv9t0ehkpFnFppZgSqf9vB+LTWnzP+YYvjdv5amEsRdlVFTL8S8jekUFyug==
   dependencies:
-    "@babel/runtime" "^7.12.5"
+    "@babel/runtime" "^7.14.6"
     minimatch "3.0.4"
+    web-vitals "^1.1.2"
 
 gatsby-plugin-mailchimp@^5.2.2:
   version "5.2.2"
@@ -11983,6 +11984,11 @@ wbuf@^1.1.0, wbuf@^1.7.3:
   integrity sha512-O84QOnr0icsbFGLS0O3bI5FswxzRr8/gHwWkDlQFskhSPryQXvrTMxjxGP4+iWYoauLoBvfDpkrOauZ+0iZpDA==
   dependencies:
     minimalistic-assert "^1.0.0"
+
+web-vitals@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-1.1.2.tgz#06535308168986096239aa84716e68b4c6ae6d1c"
+  integrity sha512-PFMKIY+bRSXlMxVAQ+m2aw9c/ioUYfDgrYot0YUa+/xa0sakubWhSDyxAKwzymvXVdF4CZI71g06W+mqhzu6ig==
 
 webpack-bundle-analyzer@^4.4.1:
   version "4.4.1"
