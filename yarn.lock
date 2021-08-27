@@ -999,10 +999,10 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.14.6", "@babel/runtime@^7.3.4", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
-  version "7.14.8"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.8.tgz#7119a56f421018852694290b9f9148097391b446"
-  integrity sha512-twj3L8Og5SaCRCErB4x4ajbvBIVV77CGeFglHpeg5WC5FF8TZzBWXtTJ4MqaD9QszLYTtr+IsaAL2rEUevb+eg==
+"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.14.6", "@babel/runtime@^7.14.8", "@babel/runtime@^7.3.4", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+  version "7.15.3"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.15.3.tgz#2e1c2880ca118e5b2f9988322bd8a7656a32502b"
+  integrity sha512-OvwMLqNXkCXSz1kSm58sEsNuhqOx/fKpnUnKnFB5v8uDda5bLNEHNgKPvhDN6IU0LDcnHQ90LlJ0Q6jnyBSIBA==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -5522,11 +5522,11 @@ gatsby-plugin-facebook-pixel@^1.0.6:
   integrity sha512-KzCQLDHPE1RmqtmPTO7wIGdMxODn42wJuh/YQfI5aPjh2EF+3NjhYjbf4mlkSV34rl/3kLrv3ifLk3IBBXq7eA==
 
 gatsby-plugin-google-analytics@^3.4.0:
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-3.10.0.tgz#a1b51b9e4fb2aed8eb6ec93d5d8dd08b50950038"
-  integrity sha512-vLYTZm2tNwT2R3EogCuG7f/UQm3cv9t0ehkpFnFppZgSqf9vB+LTWnzP+YYvjdv5amEsRdlVFTL8S8jekUFyug==
+  version "3.12.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-3.12.0.tgz#ba12909843d7359d59d549cc06824b17511b3afc"
+  integrity sha512-KthqhyFci/nGzzdrlGyZtZne+J79HTPZZ1Q+hVloMJJgIF8GzBHECApRqg/dNzz+MBnbEozww9iSFmvh4GzmJA==
   dependencies:
-    "@babel/runtime" "^7.14.6"
+    "@babel/runtime" "^7.14.8"
     minimatch "3.0.4"
     web-vitals "^1.1.2"
 
