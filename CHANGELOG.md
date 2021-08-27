@@ -2,6 +2,51 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.1](https://github.com/MK-IT/gatsby-starter-essentials/compare/v0.1.0...v0.1.1) (2021-08-27)
+
+
+### Chores
+
+* update Gatsby and Husky packages ([60a18f9](https://github.com/MK-IT/gatsby-starter-essentials/commit/60a18f928c10bd56e6591a556e39dcaf4ffe17b6))
+* **deps:** [security] bump hosted-git-info from 2.8.8 to 2.8.9 ([cd63159](https://github.com/MK-IT/gatsby-starter-essentials/commit/cd6315998673e7725d1f215863b7abd18a75fe84))
+* **deps:** [security] bump ini from 1.3.5 to 1.3.8 ([bd7261c](https://github.com/MK-IT/gatsby-starter-essentials/commit/bd7261c6c0d5b7948e0a32a35db224644147de46))
+* **deps:** [security] bump y18n from 4.0.0 to 4.0.3 ([6afcd3d](https://github.com/MK-IT/gatsby-starter-essentials/commit/6afcd3d793f0acdb735ee15c6856fa2845d45959))
+* **deps:** bump gatsby from 3.4.2 to 3.5.0 ([7f64020](https://github.com/MK-IT/gatsby-starter-essentials/commit/7f64020a425aba2f6423728098dec82d7a202422))
+* **deps:** bump gatsby-plugin-facebook-pixel from 1.0.6 to 1.0.7 ([321d94f](https://github.com/MK-IT/gatsby-starter-essentials/commit/321d94f065196786f890b2a73a0268a21a23c2be))
+* **deps:** bump gatsby-plugin-facebook-pixel from 1.0.7 to 1.0.8 ([6a94adc](https://github.com/MK-IT/gatsby-starter-essentials/commit/6a94adcea9fb3e8235eaa404545a2d1773a144d5))
+* **deps:** bump gatsby-plugin-google-analytics from 3.10.0 to 3.12.0 ([e12c424](https://github.com/MK-IT/gatsby-starter-essentials/commit/e12c42476fd74e75d975541ebb0c2fec89b17f22))
+* **deps:** bump gatsby-plugin-google-analytics from 3.4.0 to 3.5.0 ([17cebc9](https://github.com/MK-IT/gatsby-starter-essentials/commit/17cebc935572dc04b9d4d3210c06284e3e707cd9))
+* **deps:** bump gatsby-plugin-google-analytics from 3.5.0 to 3.10.0 ([4f8f63e](https://github.com/MK-IT/gatsby-starter-essentials/commit/4f8f63e88708966c948a5ac382420aa976a7d695))
+* **deps:** bump gatsby-plugin-manifest from 3.4.0 to 3.5.0 ([df6bc2b](https://github.com/MK-IT/gatsby-starter-essentials/commit/df6bc2b83034432939b359db9a7e7bac8f0435b6))
+* **deps:** bump gatsby-plugin-manifest from 3.5.0 to 3.12.0 ([d4de571](https://github.com/MK-IT/gatsby-starter-essentials/commit/d4de571afd979456514aa0c1383161732fc70b28))
+* **deps:** bump gatsby-plugin-nprogress from 3.4.0 to 3.5.0 ([6d9a79b](https://github.com/MK-IT/gatsby-starter-essentials/commit/6d9a79b4fe60ad45c23a19cd70457a6c3c227b92))
+* **deps:** bump gatsby-plugin-nprogress from 3.4.0 to 3.5.0 ([953c0a8](https://github.com/MK-IT/gatsby-starter-essentials/commit/953c0a8234c62d8aa29f075314d5e35f699076b6))
+* **deps:** bump gatsby-plugin-nprogress from 3.5.0 to 3.12.0 ([a391a25](https://github.com/MK-IT/gatsby-starter-essentials/commit/a391a2537b89f68f9bdc43ce29a3653267bbefd3))
+* **deps:** bump gatsby-plugin-offline from 4.10.0 to 4.12.0 ([c7fb938](https://github.com/MK-IT/gatsby-starter-essentials/commit/c7fb938a3f313597d6d4e71f1ea3605b6954bdb0))
+* **deps:** bump gatsby-plugin-offline from 4.4.0 to 4.5.0 ([43a5810](https://github.com/MK-IT/gatsby-starter-essentials/commit/43a5810178781eb8e1a0cff60ba5cf9b02d44e3c))
+* **deps:** bump gatsby-plugin-offline from 4.5.0 to 4.10.0 ([a938084](https://github.com/MK-IT/gatsby-starter-essentials/commit/a938084928ad3a3bf69addfc88b9c6a871a521f7))
+* **deps:** bump gatsby-plugin-react-helmet from 4.4.0 to 4.5.0 ([e8fe37b](https://github.com/MK-IT/gatsby-starter-essentials/commit/e8fe37bd0658262416b20e15a2cb5f00f460b1c1))
+* **deps:** bump gatsby-plugin-react-helmet from 4.5.0 to 4.12.0 ([1e2da6e](https://github.com/MK-IT/gatsby-starter-essentials/commit/1e2da6ec8635b4f17b9032be1cbf1bdeedd4f7aa))
+* **deps:** bump gatsby-plugin-robots-txt from 1.6.2 to 1.6.9 ([5b94fbd](https://github.com/MK-IT/gatsby-starter-essentials/commit/5b94fbd6a94875c77c0afcdc503336f1d282119a))
+* **deps:** bump gatsby-plugin-sitemap from 4.0.0 to 4.1.0 ([bf929da](https://github.com/MK-IT/gatsby-starter-essentials/commit/bf929da383fa4b9979ac6ec33288d98ea7c468ea))
+* **deps:** bump gatsby-plugin-sitemap from 4.0.0 to 4.1.0 ([acbc99c](https://github.com/MK-IT/gatsby-starter-essentials/commit/acbc99c29c57f376e4313a9f9b9c1a7cc4bac64d))
+* **deps:** bump gatsby-plugin-sitemap from 4.1.0 to 4.8.0 ([9cecb00](https://github.com/MK-IT/gatsby-starter-essentials/commit/9cecb00ebb5510c96e3fb58408d9a9924bad6cb1))
+* **deps:** bump hosted-git-info from 2.8.8 to 2.8.9 ([10dd9f7](https://github.com/MK-IT/gatsby-starter-essentials/commit/10dd9f70c713c599f35fcee706d1aa1a49fa6c94))
+* **deps:** bump ini from 1.3.5 to 1.3.8 ([37eb971](https://github.com/MK-IT/gatsby-starter-essentials/commit/37eb9718988fd2ee619237d59fb457764d366eb2))
+* **deps:** bump y18n from 4.0.0 to 4.0.3 ([7567a84](https://github.com/MK-IT/gatsby-starter-essentials/commit/7567a841b854a5d460cd14829502c387c2759fff))
+* **deps-dev:** bump @commitlint/cli from 12.1.1 to 12.1.4 ([6cf47bb](https://github.com/MK-IT/gatsby-starter-essentials/commit/6cf47bb36154cef117ab0cf16f77ccffeac19b4f))
+* **deps-dev:** bump @commitlint/cli from 12.1.4 to 13.1.0 ([28b425d](https://github.com/MK-IT/gatsby-starter-essentials/commit/28b425d1db84a094507ddedc9e0197d2914ddd9d))
+* **deps-dev:** bump @commitlint/config-conventional ([364a089](https://github.com/MK-IT/gatsby-starter-essentials/commit/364a089ce26c7db6a2eb28ac331cfa99f1204d99))
+* **deps-dev:** bump @commitlint/config-conventional ([d5d9fa7](https://github.com/MK-IT/gatsby-starter-essentials/commit/d5d9fa7e95707393af06f03b5035f5be5f1756b7))
+* **deps-dev:** bump eslint from 7.26.0 to 7.32.0 ([17ef50c](https://github.com/MK-IT/gatsby-starter-essentials/commit/17ef50cac12232d64d6d82f8d74599461efeebef))
+* **deps-dev:** bump eslint-plugin-import from 2.22.1 to 2.23.2 ([7373811](https://github.com/MK-IT/gatsby-starter-essentials/commit/737381167f6b5ee683895f092097e2daf60c885a))
+* **deps-dev:** bump eslint-plugin-import from 2.23.2 to 2.24.2 ([ab12f0f](https://github.com/MK-IT/gatsby-starter-essentials/commit/ab12f0ff43a7561fee8177e8ad0e4c8707201898))
+* **deps-dev:** bump eslint-plugin-react from 7.23.2 to 7.24.0 ([3f0217a](https://github.com/MK-IT/gatsby-starter-essentials/commit/3f0217aecd8ae166a9d261034b96bd68c9e85047))
+* **deps-dev:** bump gatsby-plugin-root-import from 2.0.6 to 2.0.7 ([80beff8](https://github.com/MK-IT/gatsby-starter-essentials/commit/80beff8ace952c98ab7af3d9fc429e588a9eed8a))
+* **deps-dev:** bump gatsby-plugin-webpack-bundle-analyser-v2 ([5ce41bc](https://github.com/MK-IT/gatsby-starter-essentials/commit/5ce41bcdea9ef896789a29c51b4c562b70ee0eb8))
+* **deps-dev:** bump prettier from 2.3.0 to 2.3.2 ([465abc1](https://github.com/MK-IT/gatsby-starter-essentials/commit/465abc124b92a35799edd146251a450517bd0dae))
+* **deps-dev:** bump standard-version from 9.3.0 to 9.3.1 ([f2354e5](https://github.com/MK-IT/gatsby-starter-essentials/commit/f2354e503c1114949a2786a70de73e49812321a4))
+
 ## [0.1.0](https://github.com/MK-IT/gatsby-starter-essentials/compare/v0.0.6...v0.1.0) (2021-05-17)
 
 
