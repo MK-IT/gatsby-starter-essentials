@@ -5563,11 +5563,11 @@ gatsby-plugin-manifest@^3.4.0:
     sharp "^0.28.3"
 
 gatsby-plugin-nprogress@^3.4.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-nprogress/-/gatsby-plugin-nprogress-3.5.0.tgz#00461f41d4252f370c6656c89a24bb0543de3234"
-  integrity sha512-BjwF0pXGIkGHsA4i8PTAzVPiGQunQm3Y51fOi4Ps8LOmoAmLh19lQ/OPHWsO1Tj3dv/AB+AFTQv2x1ESyuBxDw==
+  version "3.12.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-nprogress/-/gatsby-plugin-nprogress-3.12.0.tgz#ec94d7601da5daad38377f2cdda96b4af39a55f7"
+  integrity sha512-zhQHZgEEsz4ILKXERdF6wp9klQX+6jXn9O1oIVYmsanQmfnTJBbkRkxKnf8WuuFFAEjn3Snmr08mCtFZ4dW2nw==
   dependencies:
-    "@babel/runtime" "^7.12.5"
+    "@babel/runtime" "^7.14.8"
     nprogress "^0.2.0"
 
 gatsby-plugin-offline@^4.4.0:
