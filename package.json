@@ -21,7 +21,7 @@
   "dependencies": {
     "gatsby": "^3.12.1",
     "gatsby-plugin-facebook-pixel": "^1.0.6",
-    "gatsby-plugin-google-analytics": "^3.4.0",
+    "gatsby-plugin-google-analytics": "^3.13.0",
     "gatsby-plugin-mailchimp": "^5.2.2",
     "gatsby-plugin-manifest": "^3.4.0",
     "gatsby-plugin-nprogress": "^3.4.0",
