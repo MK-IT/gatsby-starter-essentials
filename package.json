@@ -35,7 +35,7 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^13.1.0",
+    "@commitlint/cli": "^16.1.0",
     "@commitlint/config-conventional": "^13.1.0",
     "eslint": "^7.26.0",
     "eslint-config-airbnb": "^18.2.1",
