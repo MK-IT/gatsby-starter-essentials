@@ -11,7 +11,16 @@
 
 _Help us improve by [submitting suggestions and bug reports](https://github.com/MK-IT/gatsby-starter-essentials/issues)._
 
-## 🚀 Getting Started
+## Table of Contents
+* [Getting Started](#getting-started)
+* [Features](#features)
+* [What's Inside](#whats-inside)
+  * [Available Scripts](#available-scripts)
+  * [Folder Structure](#folder-structure)
+* [Deploy](#deploy)
+
+
+## Getting Started
 
 1.  **Create a Gatsby site.**
 
@@ -50,7 +59,7 @@ _Help us improve by [submitting suggestions and bug reports](https://github.com/
 
     Open the `hello-world` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-## ⭐ Features
+## Features
 
 | Project                              | Plugins                                                                                                       | Components                                                              |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
@@ -112,9 +121,9 @@ The plugin automatically generates a static HTML report on production build, i.e
 
 You can find the generated report under `/public/report.html`.
 
-## 🧐 What's inside?
+## What's inside?
 
-### 👷‍♂️ Available Scripts
+### Available Scripts
 
 ```bash
 # local development
@@ -139,7 +148,7 @@ yarn lint
 yarn release
 ```
 
-### 📂 Folder Structure
+### Folder Structure
 
 ```bash
 .
@@ -176,7 +185,7 @@ yarn release
 └── yarn.lock
 ```
 
-## 💫 Deploy
+## Deploy
 
 Do `yarn build` to build your app. The output in `public/` is your ready-to-use production bundle.
 
